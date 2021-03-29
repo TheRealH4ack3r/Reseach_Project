@@ -25,11 +25,11 @@ student2Isinfected = input()
 
 
 if student1Class1 == student2Class1 & student1Isinfected == "true" :
-if student1Isinfected = "True":
-    if student2Class1SeatNum == student1Class1SeatNum + 1 | student1Class1SeatNum -1:
-        print ("")
-        print (studentName2 + " needs to quarentine due to exposure to " + studentName1 + ".")
-if student2Isinfected = "True":
-    if student1Class1SeatNum == student2Class1SeatNum + 1 | student2Class1SeatNum -1:
-        print ("")
-        print (studentName1 + " needs to quarentine due to exposure to " + studentName2 + ".")
+    if student1Isinfected = "True":
+        if student2Class1SeatNum == student1Class1SeatNum + 1 | student1Class1SeatNum -1:
+            print ("")
+            print (studentName2 + " needs to quarentine due to exposure to " + studentName1 + ".")
+    if student2Isinfected = "True":
+        if student1Class1SeatNum == student2Class1SeatNum + 1 | student2Class1SeatNum -1:
+             print ("")
+             print (studentName1 + " needs to quarentine due to exposure to " + studentName2 + ".")
