@@ -23,13 +23,9 @@ print (studentName2 + " sits in seat " + str(student2Class1SeatNum) + " during "
 print("Is this student infected? (True/False) ")
 student2Isinfected = input()
 
-
-if student1Class1 == student2Class1 & student1Isinfected is True :
-    if student1Isinfected is True:
-        if student2Class1SeatNum == student1Class1SeatNum + 1 | student1Class1SeatNum -1:
-            print ("")
-            print (studentName2 + " needs to quarentine due to exposure to " + studentName1 + ".")
-    if student2Isinfected is True:
-        if student1Class1SeatNum == student2Class1SeatNum + 1 | student2Class1SeatNum -1:
-             print ("")
-             print (studentName1 + " needs to quarentine due to exposure to " + studentName2 + ".")
+if student1Isinfected == "True":
+    print ("")
+    print (studentName2 + " needs to quarentine due to exposure to " + studentName1 + ".")
+elif student2Isinfected == "True":
+        print ("")
+        print (studentName1 + " needs to quarentine due to exposure to " + studentName2 + ".")
