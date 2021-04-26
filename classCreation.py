@@ -28,7 +28,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName1 = input ()
     student1SeatNum = 1
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student1Isinfected = input()
 
 
@@ -37,7 +37,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName2 = input ()
     student2SeatNum = 2
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student2Isinfected = input()
 
 
@@ -46,7 +46,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName3 = input ()
     student3SeatNum = 3
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student3Isinfected = input()
             
 
@@ -55,7 +55,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName4 = input ()
     student4SeatNum = 4
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student4Isinfected = input()
 
 
@@ -64,7 +64,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName5 = input ()
     student5SeatNum = 5
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student5Isinfected = input()
 
 
@@ -73,7 +73,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName6 = input ()
     student6SeatNum = 6
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student6Isinfected = input()
 
 
@@ -82,7 +82,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName7 = input ()
     student7SeatNum = 7
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student7Isinfected = input()
 
 
@@ -91,7 +91,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName8 = input ()
     student8SeatNum = 8
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student8Isinfected = input()
 
 
@@ -100,7 +100,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName9 = input ()
     student9SeatNum = 9
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student9Isinfected = input()
 
 
@@ -109,7 +109,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName10 = input ()
     student10SeatNum = 10
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student10Isinfected = input()
 
 
@@ -118,7 +118,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName11 = input ()
     student11SeatNum = 11
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student11Isinfected = input()
 
 
@@ -127,7 +127,7 @@ if totalStudents <= 12:
     print ("What is their first name? ")
     studentName12 = input ()
     student12SeatNum = 12
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student12Isinfected = input()
 
     print("")
@@ -171,7 +171,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName1 = input ()
     student1SeatNum = 1
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student1Isinfected = input()
 
 
@@ -180,7 +180,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName2 = input ()
     student2SeatNum = 2
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student2Isinfected = input()
 
 
@@ -189,7 +189,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName3 = input ()
     student3SeatNum = 3
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student3Isinfected = input()
             
 
@@ -198,7 +198,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName4 = input ()
     student4SeatNum = 4
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student4Isinfected = input()
 
 
@@ -207,7 +207,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName5 = input ()
     student5SeatNum = 5
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student5Isinfected = input()
 
 
@@ -216,7 +216,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName6 = input ()
     student6SeatNum = 6
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student6Isinfected = input()
 
 
@@ -225,7 +225,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName7 = input ()
     student7SeatNum = 7
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student7Isinfected = input()
 
 
@@ -234,7 +234,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName8 = input ()
     student8SeatNum = 8
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student8Isinfected = input()
 
 
@@ -243,7 +243,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName9 = input ()
     student9SeatNum = 9
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student9Isinfected = input()
 
 
@@ -252,7 +252,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName10 = input ()
     student10SeatNum = 10
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student10Isinfected = input()
 
 
@@ -261,7 +261,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName11 = input ()
     student11SeatNum = 11
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student11Isinfected = input()
 
 
@@ -270,7 +270,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName12 = input ()
     student12SeatNum = 12
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student12Isinfected = input()
 
 
@@ -279,7 +279,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName13 = input ()
     student13SeatNum = 13
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student13Isinfected = input()
 
 
@@ -288,7 +288,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName14 = input ()
     student14SeatNum = 14
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student14Isinfected = input()
 
 
@@ -297,7 +297,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName15 = input ()
     student15SeatNum = 15
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student15Isinfected = input()
             
 
@@ -306,7 +306,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName16 = input ()
     student16SeatNum = 16
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student16Isinfected = input()
 
 
@@ -315,7 +315,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName17 = input ()
     student17SeatNum = 17
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student17Isinfected = input()
 
 
@@ -324,7 +324,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName18 = input ()
     student18SeatNum = 18
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student18Isinfected = input()
 
 
@@ -333,7 +333,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName19 = input ()
     student19SeatNum = 19
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student19Isinfected = input()
 
 
@@ -342,7 +342,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName20 = input ()
     student20SeatNum = 20
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student20Isinfected = input()
 
 
@@ -351,7 +351,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName21 = input ()
     student21SeatNum = 21
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student21Isinfected = input()
 
 
@@ -360,7 +360,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName22 = input ()
     student22SeatNum = 22
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student22Isinfected = input()
 
 
@@ -369,7 +369,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName23 = input ()
     student23SeatNum = 23
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student23Isinfected = input()
 
 
@@ -378,7 +378,7 @@ if 12 < totalStudents <= 24:
     print ("What is their first name? ")
     studentName24 = input ()
     student24SeatNum = 24
-    print("Is this student infected? (True/False) ")
+    print("Is this student infected? (Y/N) ")
     student24Isinfected = input()
     
 

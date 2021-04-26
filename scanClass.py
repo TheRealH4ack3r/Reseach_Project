@@ -1,4 +1,4 @@
-
+import start
 
 if student1Isinfected == "True":
     if student1Class1 == student2Class1:
