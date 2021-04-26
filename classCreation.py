@@ -140,7 +140,17 @@ if totalStudents <= 12:
     print(studentName9 + " " + studentName10 + " " + studentName11 + " " + studentName12)
     print("")
 
+    print("")
+    print("What would you like to do?")
+    print("")
+    print("Scan Class (1) | Exit (2)")
+    action = int(input())
+    print("")
 
+    if action == 1:
+        import scanClassSmall
+    if action == 2:
+        exit()
 
 if 12 < totalStudents <= 24:
             
@@ -399,6 +409,18 @@ if 12 < totalStudents <= 24:
     print("")
     print(studentName21 + " " + studentName22 + " " + studentName23 + " " + studentName24)
     print("")
+
+    print("")
+    print("What would you like to do?")
+    print("")
+    print("Scan Class (1) | Exit (2)")
+    action = int(input())
+    print("")
+
+    if action == 1:
+        import scanClassLarge
+    if action == 2:
+        exit()
 
 
 
