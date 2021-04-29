@@ -149,62 +149,62 @@ if totalStudents <= 12:
 
     if action == 1:
         if student1Isinfected == "Y":
-            print(studentName2 + " needs to quarentine." )
-            print(studentName5 + " needs to quarentine.")
+            print(studentName2 + " needs to quarantine." )
+            print(studentName5 + " needs to quarantine.")
 
         if student2Isinfected == "Y":
-            print(studentName3 + " needs to quarentine." )
-            print(studentName1 + " needs to quarentine.")
-            print(studentName6 + " needs to quarentine.")
+            print(studentName3 + " needs to quarantine." )
+            print(studentName1 + " needs to quarantine.")
+            print(studentName6 + " needs to quarantine.")
 
         if student3Isinfected == "Y":
-            print(studentName2 + " needs to quarentine." )
-            print(studentName4 + " needs to quarentine.")
-            print(studentName7 + " needs to quarentine.")
+            print(studentName2 + " needs to quarantine." )
+            print(studentName4 + " needs to quarantine.")
+            print(studentName7 + " needs to quarantine.")
 
         if student4Isinfected == "Y":
-            print(studentName3 + " needs to quarentine." )
-            print(studentName8 + " needs to quarentine.")
+            print(studentName3 + " needs to quarantine." )
+            print(studentName8 + " needs to quarantine.")
 
         if student5Isinfected == "Y":
-            print(studentName1 + " needs to quarentine." )
-            print(studentName6 + " needs to quarentine.")
-            print(studentName9 + " needs to quarentine.")
+            print(studentName1 + " needs to quarantine." )
+            print(studentName6 + " needs to quarantine.")
+            print(studentName9 + " needs to quarantine.")
 
         if student6Isinfected == "Y":
-            print(studentName5 + " needs to quarentine." )
-            print(studentName7 + " needs to quarentine.")
-            print(studentName2 + " needs to quarentine.")
-            print(studentName10 + " needs to quarentine.")
+            print(studentName5 + " needs to quarantine." )
+            print(studentName7 + " needs to quarantine.")
+            print(studentName2 + " needs to quarantine.")
+            print(studentName10 + " needs to quarantine.")
 
         if student7Isinfected == "Y":
-            print(studentName3 + " needs to quarentine." )
-            print(studentName6 + " needs to quarentine.")
-            print(studentName8 + " needs to quarentine.")
-            print(studentName11 + " needs to quarentine.")
+            print(studentName3 + " needs to quarantine." )
+            print(studentName6 + " needs to quarantine.")
+            print(studentName8 + " needs to quarantine.")
+            print(studentName11 + " needs to quarantine.")
 
         if student8Isinfected == "Y":
-            print(studentName4 + " needs to quarentine." )
-            print(studentName7 + " needs to quarentine.")
-            print(studentName12 + " needs to quarentine.")
+            print(studentName4 + " needs to quarantine." )
+            print(studentName7 + " needs to quarantine.")
+            print(studentName12 + " needs to quarantine.")
 
         if student9Isinfected == "Y":
-            print(studentName5 + " needs to quarentine." )
-            print(studentName10 + " needs to quarentine.")
+            print(studentName5 + " needs to quarantine." )
+            print(studentName10 + " needs to quarantine.")
 
         if student10Isinfected == "Y":
-            print(studentName6 + " needs to quarentine." )
-            print(studentName9 + " needs to quarentine.")
-            print(studentName11 + " needs to quarentine.")
+            print(studentName6 + " needs to quarantine." )
+            print(studentName9 + " needs to quarantine.")
+            print(studentName11 + " needs to quarantine.")
 
         if student11Isinfected == "Y":
-            print(studentName7 + " needs to quarentine." )
-            print(studentName10 + " needs to quarentine.")
-            print(studentName12 + " needs to quarentine.")
+            print(studentName7 + " needs to quarantine." )
+            print(studentName10 + " needs to quarantine.")
+            print(studentName12 + " needs to quarantine.")
 
         if student12Isinfected == "Y":
-            print(studentName8 + " needs to quarentine." )
-            print(studentName11 + " needs to quarentine.")
+            print(studentName8 + " needs to quarantine." )
+            print(studentName11 + " needs to quarantine.")
 
     if action == 2:
         exit()
@@ -481,7 +481,147 @@ if 12 < totalStudents <= 24:
     print("")
 
     if action == 1:
-        import scanClassLarge
+        if student1Isinfected == "Y":
+            if (studentName2 != "Empty"):
+                print(studentName2 + " needs to quarantine." )
+            if (studentName5 != "Empty"):
+                print(studentName5 + " needs to quarantine.")
+
+        if student2Isinfected == "Y":
+            if (studentName3 != "Empty"):
+                print(studentName3 + " needs to quarantine." )
+            if (studentName1 != "Empty"):
+                print(studentName1 + " needs to quarantine.")
+            if (studentName6 != "Empty"):
+                print(studentName6 + " needs to quarantine.")
+
+        if student3Isinfected == "Y":
+            if (studentName2 != "Empty"):
+                print(studentName2 + " needs to quarantine." )
+            if (studentName4 != "Empty"):
+                print(studentName4 + " needs to quarantine.")
+            if (studentName7 != "Empty"):
+                print(studentName7 + " needs to quarantine.")
+
+        if student4Isinfected == "Y":
+            if (studentName3 != "Empty"):
+                print(studentName3 + " needs to quarantine." )
+            if (studentName8 != "Empty"):
+                print(studentName8 + " needs to quarantine.")
+
+        if student5Isinfected == "Y":
+            if (studentName1 != "Empty"):
+                print(studentName1 + " needs to quarantine." )
+            if (studentName6 != "Empty"):
+                print(studentName6 + " needs to quarantine.")
+            if (studentName9 != "Empty"):
+                print(studentName9 + " needs to quarantine.")
+
+        if student6Isinfected == "Y":
+            if (studentName5 != "Empty"):
+                print(studentName5 + " needs to quarantine." )
+            if (studentName7 != "Empty"):
+                print(studentName7 + " needs to quarantine.")
+            if (studentName2 != "Empty"):
+                print(studentName2 + " needs to quarantine.")
+            if (studentName10 != "Empty"):
+                print(studentName10 + " needs to quarantine.")
+
+        if student7Isinfected == "Y":
+            print(studentName3 + " needs to quarantine." )
+            print(studentName6 + " needs to quarantine.")
+            print(studentName8 + " needs to quarantine.")
+            print(studentName11 + " needs to quarantine.")
+
+        if student8Isinfected == "Y":
+            print(studentName4 + " needs to quarantine." )
+            print(studentName7 + " needs to quarantine.")
+            print(studentName12 + " needs to quarantine.")
+
+        if student9Isinfected == "Y":
+            print(studentName5 + " needs to quarantine." )
+            print(studentName10 + " needs to quarantine.")
+            print(studentName13 + " needs to quarantine.")
+
+        if student10Isinfected == "Y":
+            print(studentName6 + " needs to quarantine." )
+            print(studentName9 + " needs to quarantine.")
+            print(studentName11 + " needs to quarantine.")
+            print(studentName14 + " needs to quarantine.")
+
+        if student11Isinfected == "Y":
+            print(studentName7 + " needs to quarantine." )
+            print(studentName10 + " needs to quarantine.")
+            print(studentName12 + " needs to quarantine.")
+            print(studentName15 + " needs to quarantine.")
+
+        if student12Isinfected == "Y":
+            print(studentName8 + " needs to quarantine." )
+            print(studentName11 + " needs to quarantine.")
+            print(studentName16 + " needs to quarantine.")
+        
+        if student13Isinfected == "Y":
+            print(studentName9 + " needs to quarantine." )
+            print(studentName14 + " needs to quarantine.")
+            print(studentName17 + " needs to quarantine.")
+
+        if student14Isinfected == "Y":
+            print(studentName10 + " needs to quarantine." )
+            print(studentName13 + " needs to quarantine.")
+            print(studentName15 + " needs to quarantine.")
+            print(studentName18 + " needs to quarantine.")
+
+        if student15Isinfected == "Y":
+            print(studentName11 + " needs to quarantine." )
+            print(studentName14 + " needs to quarantine.")
+            print(studentName19 + " needs to quarantine.")
+            print(studentName16 + " needs to quarantine.")
+
+        if student16Isinfected == "Y":
+            print(studentName12 + " needs to quarantine." )
+            print(studentName15 + " needs to quarantine.")
+            print(studentName20 + " needs to quarantine.")
+
+        if student17Isinfected == "Y":
+            print(studentName13 + " needs to quarantine." )
+            print(studentName18 + " needs to quarantine.")
+            print(studentName21 + " needs to quarantine.")
+
+        if student18Isinfected == "Y":
+            print(studentName14 + " needs to quarantine." )
+            print(studentName17 + " needs to quarantine.")
+            print(studentName22 + " needs to quarantine.")
+            print(studentName19 + " needs to quarantine.")
+
+        if student19Isinfected == "Y":
+            print(studentName15 + " needs to quarantine." )
+            print(studentName18 + " needs to quarantine.")
+            print(studentName20 + " needs to quarantine.")
+            print(studentName23 + " needs to quarantine.")
+
+        if student20Isinfected == "Y":
+            print(studentName16 + " needs to quarantine." )
+            print(studentName19 + " needs to quarantine.")
+            print(studentName24 + " needs to quarantine.")
+
+        if student21Isinfected == "Y":
+            print(studentName17 + " needs to quarantine." )
+            print(studentName22 + " needs to quarantine.")
+
+        if student22Isinfected == "Y":
+            print(studentName21 + " needs to quarantine." )
+            print(studentName18 + " needs to quarantine.")
+            print(studentName23 + " needs to quarantine.")
+
+        if student23Isinfected == "Y":
+            print(studentName22 + " needs to quarantine." )
+            print(studentName19 + " needs to quarantine.")
+            print(studentName24 + " needs to quarantine.")
+
+        if student24Isinfected == "Y":
+            print(studentName20 + " needs to quarantine." )
+            print(studentName23 + " needs to quarantine.")
+
     if action == 2:
         exit()
 
