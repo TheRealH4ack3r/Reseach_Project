@@ -1,4 +1,7 @@
+from classCreation import main
 print("")
+print("")
+print("Welcome to our contact tracing program!")
 print("")
 print("What would you like to do? ")
 print("")
@@ -7,9 +10,8 @@ action = int(input())
 print("")
 
 if action == 1:
+    main()
 
-    import classCreation
-2
 if action == 2:
 
    exit()
