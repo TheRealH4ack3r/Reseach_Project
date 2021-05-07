@@ -1,5 +1,6 @@
 def main():
 
+#Class Description
     print ("Enter Class Name: ")
     className = input ()
     print("")
@@ -10,6 +11,8 @@ def main():
     totalStudents = int(input ())
     print ("")
     print ("")
+
+#Invalid Num of Students
     if totalStudents <= 0:
         print ("Invalid #")
         print ("Please Try Again")
@@ -34,15 +37,67 @@ def main():
         print ("Max: 24")
         print ("Min: 1")
         totalStudents = int(input ())
+    if totalStudents <= 0:
+        print ("Invalid #")
+        print ("Please Try Again")
+        print ("")
+        print ("How many students are in this class? ")
+        print ("Max: 24")
+        print ("Min: 1")
+        totalStudents = int(input ())
+    if totalStudents <= 0:
+        print ("Invalid #")
+        print ("Please Try Again")
+        print ("")
+        print ("How many students are in this class? ")
+        print ("Max: 24")
+        print ("Min: 1")
+        totalStudents = int(input ())
+    if totalStudents <= 0:
+        print ("Invalid #")
+        print ("Please Try Again")
+        print ("")
+        print ("How many students are in this class? ")
+        print ("Max: 24")
+        print ("Min: 1")
+        totalStudents = int(input ())
+    if totalStudents <= 0:
+        print ("Invalid #")
+        print ("Please Try Again")
+        print ("")
+        print ("How many students are in this class? ")
+        print ("Max: 24")
+        print ("Min: 1")
+        totalStudents = int(input ())
+    if totalStudents <= 0:
+        print ("Invalid #")
+        print ("Please Try Again")
+        print ("")
+        print ("How many students are in this class? ")
+        print ("Max: 24")
+        print ("Min: 1")
+        totalStudents = int(input ())
+    if totalStudents <= 0:
+        print ("Invalid #")
+        print ("Please Try Again")
+        print ("")
+        print ("How many students are in this class? ")
+        print ("Max: 24")
+        print ("Min: 1")
+        totalStudents = int(input ())
+
+# Set to default (12)
     if totalStudents <= 0:
         print("Too many invalid tries.")
         print("Set to default: 12")
         print("")
 
+#Small Classroom 12 Students Max
     if totalStudents <= 12:
                 
         print("")
 
+        #Visualization of Classroom + Disclaimers
         print("")
         print("This Is Your " + className + " Classroom:")
         print("")
@@ -57,6 +112,7 @@ def main():
         print("*For any empty seat, enter 'Empty' for all values*")
         print("*Please use capital letters when specifying infected students*")
 
+        #User Entered Data For Students
         print("")
         print("Student 1:")
         print ("What is their first name? ")
@@ -164,6 +220,7 @@ def main():
         print("Is this student infected? (Y/N) ")
         student12Isinfected = input()
 
+        #Second Visualization of Classroom
         print("")
         print("This Is Your " + className + " Classroom:")
         print("")
@@ -174,13 +231,15 @@ def main():
         print(studentName9 + " " + studentName10 + " " + studentName11 + " " + studentName12)
         print("")
 
+        #Exit or Scan
         print("")
         print("What would you like to do?")
         print("")
         print("Scan Class (1) | Exit (2)")
         action = int(input())
         print("")
-
+        
+        #Scan logic, checks if student[]Isinfected = "Y" and if student[]Name does not = "Empty"
         if action == 1:
             if student1Isinfected == "Y":
                 if (studentName2 != "Empty"):
@@ -282,11 +341,12 @@ def main():
 
 
 
-
+#Large Classroom 24 Students Max
     if 12 < totalStudents <= 24:
                 
         print("")
 
+        #Visualization of Classroom + Disclaimers
         print("")
         print("This Is Your " + className + " Classroom:")
         print("")
@@ -307,6 +367,7 @@ def main():
         print("*For any empty seat, enter 'Empty' for all values*")
         print("*Please use capital letters when specifying infected students*")
 
+        #User Entered Data For Students
         print("")
         print("Student 1:")
         print ("What is their first name? ")
@@ -524,7 +585,7 @@ def main():
         
 
 
-
+        #Second Visualization of Classroom
         print("")
         print("This Is Your " + className + " Classroom:")
         print("")
@@ -541,6 +602,7 @@ def main():
         print(studentName21 + " " + studentName22 + " " + studentName23 + " " + studentName24)
         print("")
 
+        #Exit or Scan
         print("")
         print("What would you like to do?")
         print("")
@@ -548,6 +610,7 @@ def main():
         action = int(input())
         print("")
 
+        #Scan logic, checks if student[]Isinfected = "Y" and if student[]Name does not = "Empty"
         if action == 1:
             if student1Isinfected == "Y":
                 if (studentName2 != "Empty"):
