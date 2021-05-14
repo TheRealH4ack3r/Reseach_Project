@@ -158,7 +158,7 @@ def main():
         print ("Min: 1")
         totalStudents = int(input ())
 
-# Set to default (12)
+# Restart
     if totalStudents > 24:
         print("Too many invalid tries.")
 
