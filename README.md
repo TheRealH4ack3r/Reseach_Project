@@ -1,4 +1,4 @@
-# Reseach_Project_Python
+# Reseach_Project
 
 Hey viewer...
 This program was developed to help schools determine who needs to quarentine post infection.
