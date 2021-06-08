@@ -1,4 +1,4 @@
-# Reasearch_Project
+# Research_Project
 
 Hey viewer...
 This program was developed to help schools determine who needs to quarentine post infection.
